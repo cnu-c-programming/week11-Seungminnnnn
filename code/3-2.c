@@ -10,10 +10,10 @@ int cmp_desc(const void *a, const void *b) {
 }
 
 void print_arr(int *arr, int size) {
-    for (int i = 0; o < size; i++) {
+    for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
-    pritnf("\n");
+    printf("\n");
 }
 
 int main(void) {
